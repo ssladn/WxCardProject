@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='headerBg'>
+    <view class='headerBg-titleBg'>
+      <view class='headerBg-title'>我的名片</view>
+      <view class='headerBg-haibao-btn'>
+        <image class='headerBg-haibao-btn-icon' src='/images/index/vi_index_creat_haibao_icon.png'></image>
+        <text>生成名片海报</text>
+      </view>
+    </view>
+  </view>
+  <view class='cardBg'>
+    <view class='card-mainBg'>
+      <image class='card-mainBg-img' src='/images/index/vi_index_card_bg.png'></image>
+      <view class='card-main-view'>
+        <view class='car-main-view-titleView'>
+          <view class='car-main-view-titleView-name'>张无忌</view>
+          <view class='headerBg-card-bianji-btn'>
+            <image class='headerBg-card-bianji-btn-icon' src='/images/index/vi_index_bianji_icon.png'></image>
+            <text>编辑</text>
+          </view>
+          <view class='headerBg-card-header-icon-view'>
+            <image class='headerBg-card-header-icon' src='/images/index/vi_index_creat_header__default_icon.png'></image>
+          </view>
+        </view>
+        <view class='car-main-view-titleView,car-main-view-titleView-mark'>
+          <view class='car-main-view-titleView-mark-title'>视觉设计师</view>
+          <view class='car-main-view-titleView-mark-address'>广州武当山科技有限公司</view>
+        </view>
+        <view class='vi-card-line'></view>
+        <view class='car-main-view-detailView'>电话：13000000302</view>
+        <view class='car-main-view-detailView'>邮箱：13000000302@qq.com</view>
+        <view class='car-main-view-detailView'>地址：广东省广州市天河区猎德大道</view>
+      </view>
+      <!-- <view class='vi-card-shadow-view'>
+        <image class='card-mainBg-img-shadow' src='/images/index/vi_index_card_bg_shadow.png'></image>
+      </view> -->
+    </view>
+  </view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
