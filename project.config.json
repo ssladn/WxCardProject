@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.4.3",
 	"appid": "wx9f159504051a8762",
-	"projectname": "WxCardProject",
+	"projectname": "IVCard",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
