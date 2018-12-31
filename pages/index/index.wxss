@@ -98,7 +98,7 @@
   display: flex;
   width: 100%;
   height: 280rpx;
-  margin-top: -200rpx;
+  
 }
 
 .card-mainBg-img-shadow {
@@ -114,6 +114,7 @@
   width: 690rpx;
   height: 430rpx;
   color: white;
+  margin-top: -150rpx;
 }
 
 .car-main-view-titleView {

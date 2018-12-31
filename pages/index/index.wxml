@@ -32,9 +32,9 @@
         <view class='car-main-view-detailView'>邮箱：13000000302@qq.com</view>
         <view class='car-main-view-detailView'>地址：广东省广州市天河区猎德大道</view>
       </view>
-      <!-- <view class='vi-card-shadow-view'>
+      <view class='vi-card-shadow-view'>
         <image class='card-mainBg-img-shadow' src='/images/index/vi_index_card_bg_shadow.png'></image>
-      </view> -->
+      </view>
     </view>
   </view>
   <view class="userinfo">
