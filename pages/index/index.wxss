@@ -85,7 +85,7 @@
   position: relative;
   flex-direction: column;
   justify-content: center;
-  margin-top: -150rpx;
+  height: 710rpx;
 }
 
 .card-mainBg-img {
@@ -96,9 +96,11 @@
 
 .vi-card-shadow-view {
   display: flex;
+  position: absolute;
   width: 100%;
   height: 280rpx;
-  
+  margin-top: -130rpx;
+  z-index: 0;
 }
 
 .card-mainBg-img-shadow {
@@ -107,6 +109,14 @@
   height: 280rpx;
 }
 
+.card-mainBg-mainView {
+  display: flex;
+  width: 690rpx;
+  height: 430rpx;
+  color: white;
+  margin-top: -450rpx;
+  z-index: 2;
+}
 .card-main-view {
   display: flex;
   position: absolute;
@@ -114,7 +124,7 @@
   width: 690rpx;
   height: 430rpx;
   color: white;
-  margin-top: -150rpx;
+  /* margin-top: -150rpx; */
 }
 
 .car-main-view-titleView {
@@ -207,4 +217,15 @@
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+}
+
+.iv-shareCart-btn {
+  display: flex;
+  width: 690rpx;
+  height: 94rpx;
+  border-radius: 47rpx;
+  background: #3d3bee;
+  color: #fff;
+  justify-content: center;
+  margin-top: 60rpx;
 }
