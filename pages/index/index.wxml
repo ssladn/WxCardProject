@@ -1,4 +1,6 @@
 <!--index.wxml-->
+<import src="/pages/templates/cardItems/cardItems.wxml" />
+
 <view class="container">
   <view class='headerBg'>
     <view class='headerBg-titleBg'>
@@ -42,6 +44,36 @@
       </button>
     </view>
   </view>
+  <template is="cardItems"></template>
+  <template is="cardItems"></template>
+  <template is="cardItems"></template>
+
+  <!-- <view class='card-item-view'>
+    <view class='card-item-title'>
+      <text class='card-item-title-text'>喜欢你的作品，我需要一套app应用，有兴趣加好友详聊。
+</text>
+    </view>
+    <view class='card-item-main-bg'>
+      <view class='card-item-main-header'>
+        <image class='card-item-main-header-icon' src='/images/index/vi_index_creat_header__default_icon.png'></image>
+      </view>
+      <view class='card-item-main-detail'>
+        <view class='card-item-main-detail-row'>
+          <view class='card-item-main-name'>伊丽莎白</view>
+          <view class='card-item-main-other'>1分钟前</view>
+        </view>
+        <view class='card-item-main-detail-row'>
+          <view class='card-item-main-work'>UI设计师</view>
+          <view class='card-item-main-other'>自由工作者</view>
+        </view>
+
+      </view>
+      <view class='card-item-main-add-btn-view'>
+      <view class='card-item-main-add-btn' bindtap='clickCardItem'>
+        添加名片
+      </view></view>
+    </view>
+  </view> -->
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>

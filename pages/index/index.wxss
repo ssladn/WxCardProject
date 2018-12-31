@@ -1,5 +1,5 @@
 /**index.wxss**/
-
+@import "/pages/templates/cardItems/cardItems.wxss";
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -73,7 +73,7 @@
   flex-direction: column;
   width: 100%;
   background: white;
-  height: 710rpx;
+  /* height: 710rpx; */
   margin-top: -20rpx;
   border-top-left-radius: 20rpx;
   border-top-right-radius: 20rpx;
@@ -117,6 +117,7 @@
   margin-top: -450rpx;
   z-index: 2;
 }
+
 .card-main-view {
   display: flex;
   position: absolute;
@@ -229,3 +230,4 @@
   justify-content: center;
   margin-top: 60rpx;
 }
+

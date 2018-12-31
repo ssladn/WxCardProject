@@ -52,6 +52,9 @@ Page({
     })
   },
   shareClick(e) {
-    console.log(e.currentTarget.dataset.name);
+    console.log(e.currentTarget.dataset.name)
+  },
+  clickCardItem(e) {
+    console.log(e)
   }
 })
