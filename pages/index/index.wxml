@@ -44,6 +44,12 @@
       </button>
     </view>
   </view>
+  <view class='iv-cards-Title-view'>
+    <view class='iv-cards-Title-view-text'>名片交换消息</view>
+    <view class='iv-cards-Title-more-btn-view' bindtap='moreCardsClick'>
+      <image class='iv-cards-Title-more-btn' src='/images/index/vi_index_arrow_icon.png'></image>
+    </view>
+  </view>
   <template is="cardItems"></template>
   <template is="cardItems"></template>
   <template is="cardItems"></template>
@@ -74,7 +80,7 @@
       </view></view>
     </view>
   </view> -->
-  <view class="userinfo">
+  <!-- <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
@@ -83,5 +89,5 @@
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
-  </view>
+  </view> -->
 </view>

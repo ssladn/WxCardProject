@@ -56,5 +56,8 @@ Page({
   },
   clickCardItem(e) {
     console.log(e)
+  },
+  moreCardsClick(e) {
+    console.log('查看更多')
   }
 })
