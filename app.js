@@ -33,6 +33,9 @@ App({
       }
     })
   },
+  data: {
+    hostUrl:"http://www.baidu.com"
+  },
   globalData: {
     userInfo: null
   }

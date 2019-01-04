@@ -58,6 +58,18 @@ Page({
     console.log(e)
   },
   moreCardsClick(e) {
-    console.log('查看更多')
+    console.log('查看更多'),
+    wx.request({
+      url: app.data.hostUrl,
+      header: {
+        'content-type': 'application/json'
+      },
+      success(res) {
+        console.log(res.data)
+      }
+    })
+  },
+  editCardDetailClick(e) {
+    console.log(e)
   }
 })
