@@ -39,9 +39,6 @@ App({
   data: {
     hostUrl:"https://www.guangting.online/wechat/",
   },
-  colorData: {
-    mainColor:#3d3bee
-  }
   globalData: {
     userInfo: null
   }
