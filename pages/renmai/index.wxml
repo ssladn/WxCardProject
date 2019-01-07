@@ -1,2 +1,7 @@
-<!--pages/renmai/index.wxml-->
-<text>pages/renmai/index.wxml</text>
+<view calss="wrap">
+  <image src="/images/index/vi_index_card_bg.png"/>
+  <view class="sub">
+    <text>一段文本一段文本一段文本一段文本一段文本一段文本</text>
+    <view>其他</view>
+  </view>
+</view>

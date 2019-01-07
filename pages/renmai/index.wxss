@@ -1,1 +1,11 @@
 /* pages/renmai/index.wxss */
+.wrap {
+  display: flex;
+}
+.sub {
+  flex: 1;
+  width: 0;
+}
+.sub text {
+  display: block;
+}

@@ -1,5 +1,8 @@
 //app.js
 App({
+  config: {
+    host: 'https://www.guangting.online/wechat/' // 这个地方填写你的域名
+  },
   onLaunch: function () {
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
@@ -34,7 +37,7 @@ App({
     })
   },
   data: {
-
+    hostUrl:"https://www.guangting.online/wechat/",
   },
   colorData: {
     mainColor:#3d3bee
