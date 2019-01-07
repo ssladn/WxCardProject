@@ -34,8 +34,11 @@ App({
     })
   },
   data: {
-    hostUrl:"http://www.baidu.com"
+
   },
+  colorData: {
+    mainColor:#3d3bee
+  }
   globalData: {
     userInfo: null
   }
